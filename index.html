@@ -1,92 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kaviya Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Healthcare & Adoption System</title>
 
-<link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<!-- PAGE 1 -->
-<section id="home">
-  <div class="hero">
-    
-    <img src="c:\Users\kaviy\Downloads\kavzzz.jpeg" class="profile">
+<!-- ================= HEADER ================= -->
 
-    <div class="hero-text">
-      <h1>Hi, I'm Kaviya V</h1>
-      <p>IT Student • UI/UX Designer • Developer</p>
-
-      <div class="buttons">
-        <a href="#skills" class="btn">Explore Skills</a>
-        <a href="#contact" class="btn">Contact Me</a>
-      </div>
+<header>
+    <div class="logo">
+        <i class="fa-solid fa-paw"></i>
+        <h2>PetCare</h2>
     </div>
 
-  </div>
-</section>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#adoption">Adoption</a></li>
+            <li><a href="#healthcare">Healthcare</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-<!-- PAGE 2 -->
-<section id="skills">
-  <h1 class="title">Skills</h1>
+    <a href="#" class="btn">Login</a>
+</header>
 
-  <div class="grid">
+<!-- ================= HOME ================= -->
 
-    <div class="card">HTML</div>
-    <div class="card">CSS</div>
-    <div class="card">UI/UX</div>
-    <div class="card">Figma</div>
+<section class="home" id="home">
 
-  </div>
-</section>
+<div class="content">
+    <h1>Pet Healthcare & Adoption System</h1>
 
-<!-- PAGE 3 -->
-<section id="about">
-  <h1 class="title">My Portfolio Journey</h1>
-
-  <div class="glass">
     <p>
-      I created this portfolio to showcase my skills, certificates and development journey.
-      This represents my passion for technology and design.
+        Find your perfect companion and provide complete healthcare
+        support with vaccination reminders, medical records,
+        and veterinary appointments.
     </p>
-  </div>
+
+    <a href="#" class="btn">Adopt Now</a>
+</div>
+
+<div class="image">
+    <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=700"
+    alt="Pet">
+</div>
+
 </section>
 
-<!-- PAGE 4 -->
-<section id="certificates">
-  <h1 class="title">Certificates</h1>
+<!-- ================= ABOUT ================= -->
 
-  <div class="grid">
+<section id="about" class="about">
 
-    <div class="card glow">UI/UX Design</div>
-    <div class="card glow">Web Development</div>
-    <div class="card glow">Python Basics</div>
-    <div class="card glow">Digital Skills</div>
+<h2 class="heading">About Us</h2>
 
-  </div>
+<p>
+We connect pets with loving families while offering complete healthcare
+management including vaccination tracking, health records,
+and veterinary appointments.
+</p>
+
+<div class="about-box">
+
+<div class="box">
+<i class="fa-solid fa-heart"></i>
+<h3>Pet Adoption</h3>
+<p>Safe and trusted pet adoption process.</p>
+</div>
+
+<div class="box">
+<i class="fa-solid fa-user-doctor"></i>
+<h3>Veterinary Care</h3>
+<p>Book appointments with experienced veterinarians.</p>
+</div>
+
+<div class="box">
+<i class="fa-solid fa-syringe"></i>
+<h3>Vaccination</h3>
+<p>Receive vaccination reminders for your pets.</p>
+</div>
+
+</div>
+
 </section>
 
-<!-- PAGE 5 -->
+<!-- ================= SERVICES ================= -->
+
+<section id="services">
+
+<h2 class="heading">Our Services</h2>
+
+<div class="service-container">
+
+<div class="service-box">
+<i class="fa-solid fa-dog"></i>
+<h3>Pet Adoption</h3>
+<p>Adopt healthy and lovable pets.</p>
+</div>
+
+<div class="service-box">
+<i class="fa-solid fa-notes-medical"></i>
+<h3>Medical Records</h3>
+<p>Store complete health records online.</p>
+</div>
+
+<div class="service-box">
+<i class="fa-solid fa-calendar-check"></i>
+<h3>Appointments</h3>
+<p>Book veterinary appointments easily.</p>
+</div>
+
+<div class="service-box">
+<i class="fa-solid fa-bell"></i>
+<h3>Health Alerts</h3>
+<p>Automatic reminders for vaccines.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= ADOPTION ================= -->
+
+<section id="adoption">
+
+<h2 class="heading">Available Pets</h2>
+
+<div class="pet-container">
+
+<div class="pet-card">
+
+<img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=500">
+
+<h3>Golden Retriever</h3>
+
+<p>Age : 2 Years</p>
+
+<p>Gender : Male</p>
+
+<button>Adopt</button>
+
+</div>
+
+<div class="pet-card">
+
+<img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=500">
+
+<h3>Persian Cat</h3>
+
+<p>Age : 1 Year</p>
+
+<p>Gender : Female</p>
+
+<button>Adopt</button>
+
+</div>
+
+<div class="pet-card">
+
+<img src="https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?w=500">
+
+<h3>Labrador</h3>
+
+<p>Age : 3 Years</p>
+
+<p>Gender : Male</p>
+
+<button>Adopt</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= HEALTHCARE ================= -->
+
+<section id="healthcare">
+
+<h2 class="heading">Healthcare Features</h2>
+
+<div class="health-box">
+
+<div>
+<i class="fa-solid fa-file-medical"></i>
+<h3>Medical History</h3>
+</div>
+
+<div>
+<i class="fa-solid fa-syringe"></i>
+<h3>Vaccination Tracking</h3>
+</div>
+
+<div>
+<i class="fa-solid fa-stethoscope"></i>
+<h3>Vet Consultation</h3>
+</div>
+
+<div>
+<i class="fa-solid fa-pills"></i>
+<h3>Prescription Records</h3>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
 <section id="contact">
-  <h1 class="title">Contact Me</h1>
 
-  <div class="glass">
+<h2 class="heading">Contact Us</h2>
 
-    <p>Email: kaviyavadivel1312@gmail.com</p>
-    <p>Phone: +91 9092713120</p>
+<form>
 
-    <a class="btn" href="mailto:kaviyavadivel1312@gmail.com">Send Mail</a>
+<input type="text" placeholder="Your Name">
 
-    <a class="btn" target="_blank"
-    href="https://www.linkedin.com/in/kaviya-v-b7bab13a6">
-    LinkedIn
-    </a>
-  </div>
+<input type="email" placeholder="Email">
+
+<input type="text" placeholder="Phone Number">
+
+<textarea placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
 </section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<h3>Pet Healthcare & Adoption System</h3>
+
+<p>© 2026 All Rights Reserved.</p>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-facebook"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-twitter"></i></a>
+
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
